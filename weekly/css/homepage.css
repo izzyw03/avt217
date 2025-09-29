@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+	background-color: #ADC7B3;
+	margin-left:6%;
+	margin-right: 1%;
+	
+	font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	
+	line-height: 1.6em;
+	
+	
+}
+h1{
+	
+
+	font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+
+}
+
+
+h3{
+	font-weight: 80;
+	
+	
+}
+
+
+	
+a:link{
+	
+	color: #134726;
+	text-decoration: none;
+	
+}
+
+
+a:visited{
+	
+color: 	#833873
+	
+	
+}
+
+
+a:hover{
+	
+	text-decoration: underline;
+	color: chartreuse;
+	
+	
+	
+	
+}
+
+
+.weekly{
+	
+	width:45%;
+	float:left;
+	
+	
+}
+
+#project{
+	
+	width:45%;
+	float:left;
+	
+}
+
+.demo{
+	
+font-weight:100;
+
+	color:red
+	
+	
+	
+	
+}
+
+
+
+	
+
