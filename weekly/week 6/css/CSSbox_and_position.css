@@ -1,3 +1,52 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+body{
+margin-left: 50px;
+	margin-right: 60px;
+	line-height: 27px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+background-color:#E0BBBC;
+}
+
+
+#box1{
+position: relative;
+	text-align: center;
+border-style: double;
+	border-width: thick 10px;
+	padding: 1em 3em 1.5em 2em;
+	
+	
+}
+
+#box2{
+float:left;
+	width:500px;
+	padding-right:2em;
+		
+	
+
+	
+}
+
+#box3{
+	margin-right:1em;
+	
+}
+
+#box4{
+position: static;
+	text-align:right;
+	
+	
+}
+
+
+#box5{
+	
+	
+	
+	
+}
