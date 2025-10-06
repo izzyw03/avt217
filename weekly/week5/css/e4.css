@@ -12,9 +12,9 @@ font-style: italic;
 body {
 	background-color:#a2cddc;	
 	margin-left: 65px;
-	margin-right: 65spx;
+	margin-right: 70px;
 	margin-top:60px;
-	margin-bottom:60px;
+	margin-bottom:65px;
 	font-size:15px;
 
 }
@@ -31,7 +31,7 @@ border-color:#385762;
 
 
 p {
-	line-height: 24px;
+	line-height: 28px;
 	
 	
 
