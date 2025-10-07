@@ -7,7 +7,6 @@ margin-left: 50px;
 	margin-right: 60px;
 	margin-bottom:60px;
 	margin-top:60px;
-	margin-left:60px;
 	line-height: 27px;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 background-color:#e2cacb;
@@ -15,12 +14,9 @@ background-color:#e2cacb;
 
 
 #box1{
-position: relative;
-	text-align: center;
-border-style: double;
-	border-width: thick 10px;
-	padding: 1em 3em 1.5em 2em;
 	
+position:sticky;
+	text-align: center;
 	
 }
 
