@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+
+
+h1{
+	
+font-size:40px;
+		 color:white;	
+	font-family: cc-incy-wincy-spider, cc-incy-wincy-spider-venom, cc-primal-scream, sans-serif;
+	text-align:center;
+	
+}
+
+
+
+
+body {
+	  
+	background-image: url("../img/vertex-designs-e5EbaIEnpw8-unsplash.jpg");
+   
+	background-repeat: no-repeat;
+
+text-align:center;
+	
+	  
+	  
+  }
+
+
+	
+	
+	
+	
+
+#container {
+
+  }
+
+  p {
+    text-transform:uppercase;
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+		  
+	  }	  
+	  
+	  
+	  body {
+ 
+    }
+	  
+	#container {
+ 
+    }
+	   
+    p {
+
+    }
+	  
+	#cursive {
+  	}
+	  
+    .mobile-only {
+   
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+  
+    }
+
+ /* don't forget to close the styles for mobile/
