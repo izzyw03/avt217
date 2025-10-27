@@ -5,10 +5,29 @@
 
 h1{
 	
-font-size:40px;
-		 color:white;	
-	font-family: cc-incy-wincy-spider, cc-incy-wincy-spider-venom, cc-primal-scream, sans-serif;
-	text-align:center;
+font-size:200px;
+		 color:white;
+	align-items: center;
+	justify-content: center;
+	align-content:center;
+	font-family: "halau-spooky-script", sans-serif;
+font-weight: 200;
+	font-style:normal;
+		
+}
+
+
+h2{
+	
+font-size:200px;
+		 color:white;
+	align-items: center;
+	justify-content: center;
+	align-content:center;
+	font-family: "p22-spooky", sans-serif;
+font-weight: 300;
+font-style: normal;
+	
 	
 }
 
@@ -16,14 +35,15 @@ font-size:40px;
 
 
 body {
-	  
-	background-image: url("../img/vertex-designs-e5EbaIEnpw8-unsplash.jpg");
-   
-	background-repeat: no-repeat;
-
-text-align:center;
 	
-	  
+background-color:#872E03;
+	background-image: url("../img/vertex-designs-e5EbaIEnpw8-unsplash.jpg");
+   background-position: center;
+	background-repeat: no-repeat;
+	justify-content: center;
+	min-height: 4300px;
+	  width: 100%;
+  height: 100vh;
 	  
   }
 
@@ -34,6 +54,9 @@ text-align:center;
 	
 
 #container {
+
+	display: flex;
+  gap: 20px;
 
   }
 
@@ -50,18 +73,21 @@ text-align:center;
 
 /* tell browser to do the followings when screen is at and narrower than 768px */
   @media only screen and (max-width: 768px) {
-	  
+	   body {
+    background-color: #ffe0b2;
+    color: #000;
+    padding: 20px;
+  }
 		  
-	  }	  
+	  }
+
+
+.container {
+    display: block;
+  }
+
 	  
 	  
-	  body {
- 
-    }
-	  
-	#container {
- 
-    }
 	   
     p {
 
@@ -71,7 +97,14 @@ text-align:center;
   	}
 	  
     .mobile-only {
-   
+   max-width:500px;
+    background-image: none;    
+    background-color:#872E03;
+    color:white;
+	
+		
+		
+		
     }
 	  /* Now the style and content for desktop will not be displied */
     .desktop-only {
