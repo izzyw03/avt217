@@ -30,16 +30,13 @@ div {
   font-style: normal;
 	font-size:70px;
 	 color:white;
-	 font-family: "halau-spooky-script",sans-serif;
+	  font-family: "p22-spooky",sans-serif;
+	
 	 
   }
 
 
-.tk-halau-spooky-script {
-	
-	font-family: "halau-spooky-script",sans-serif; 
 
-}
  
 .mobile-only {
     display: none;
@@ -61,8 +58,9 @@ div {
 	   
     p {
 text-transform: none;
-		font-size: 50px;
+		font-size: 58px;
 		color:white;
+		 font-family: "halau-spooky-script",sans-serif;
     }
 	  
 	#cursive {
