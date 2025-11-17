@@ -95,7 +95,6 @@ body {
 	margin-left:0%;
 	margin-right: 10%;
 	width:100%;
-	margin-bottom:60px;
 	font-family: "martel-sans", sans-serif;
 	
 }
@@ -190,6 +189,27 @@ font-size:25px;
 
 }
 
+.containerimg {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+
+.centered {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color:#C1C8B6;
+  font-size:26px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+
+
 
 .chefimage img{
 	position:relative;
@@ -198,6 +218,7 @@ width:500px;
 	height:auto;
 	display:block;
 	margin:auto;
+	margin-top:220px;
 }
 
 
@@ -255,10 +276,10 @@ text-align:center;
 	
 font-size:16px;	
 text-align: center;
-	line-height: 38px;
+	line-height: 36px;
 	margin-top:100px;
 margin-left:3%;
-	margin-right:3%;
+	margin-right:4%;
 	
 }
 
@@ -296,17 +317,17 @@ text-decoration: underline;
 
 .imgcollage {
   display: flex;
-  flex-wrap: wrap; /* allows images to move to the next row */
-  gap: 20px; /* space between images */
-  justify-content: center; /* center the collage */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .imgcollage img {
   width: 100%;
 max-width:400px;
-  height: auto; /* maintain aspect ratio */
-  flex: 1 1 300px; /* flexible: grow/shrink, base width 300px */
-  border-radius: 8px; /* optional: rounded corners */
+  height: auto;
+  flex: 1 1 300px;
+  border-radius: 7px;
 }
 
 
