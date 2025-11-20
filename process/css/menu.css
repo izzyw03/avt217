@@ -1,0 +1,331 @@
+@charset "UTF-8";
+h1{
+text-align:center;	
+font-size:60px;
+	font-family:"itc-bradley-hand-std", sans-serif;
+	color:#38291E;
+}
+
+	
+
+	
+
+.bgimg{
+	
+	
+background-image: url("../img/menu_MAINimg.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+	position: relative;
+	height: 90vh;
+}
+
+
+
+.container{
+	
+  margin: 20px;
+  width: auto;
+	
+	
+}
+
+.nav{
+	
+	overflow: hidden;
+	display: block;
+  font-size: 20px;
+  text-decoration: none;
+  color: #C1C8B6;
+  border-radius: 5px;
+	font-family: "ibm-plex-sans-jp", sans-serif;
+	font-weight:20;
+	
+	
+}
+	
+ul {
+display:block;
+	list-style-type: none;
+	overflow: hidden;
+/*	text-decoration: none;*/
+
+	
+}	
+
+
+.nav ul{
+	
+list-style: none;
+	display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	gap: 20px;
+}
+ 
+  
+	
+
+.nav a {
+  display: block;
+  text-align: center;
+	text-decoration: none;
+	padding:15px 60px;
+	
+}
+	
+
+
+
+
+.nav a:hover{
+text-decoration: underline;	
+	
+	
+
+	
+}
+
+body {
+	background-color: #D0D4BE;
+	margin-left:0%;
+	margin-right: 10%;
+	width:100%;
+	font-family: "martel-sans", sans-serif;
+	
+	
+
+	
+}
+
+
+.home{
+	
+font-size:24px;	
+color:#C1C8B6;
+background-color:#6A797F;
+	margin-left:8px;
+
+	
+	
+}
+
+
+
+.about{
+	
+	font-size:24px;
+	color:#C1C8B6;	
+	background-color:#6A797F;
+	
+	
+	
+}
+
+.about hover{
+text-decoration: underline;	
+	
+	
+	
+}
+
+
+
+
+
+.menu{
+	
+font-size:24px;	
+	color:#C1C8B6;	
+	background-color:#6A797F;
+	
+	
+	
+}
+
+.menu hover{
+text-decoration: underline;		
+	
+	
+	
+}
+
+.events{
+	
+font-size:24px;	
+	color:#C1C8B6;	
+	background-color:#6A797F;
+	
+	
+	
+	
+}
+
+.events hover{
+	
+text-decoration: underline;	
+	
+	
+	
+}
+
+
+h2{
+font-size:35px;
+margin-top: 150px;
+	margin-left: auto;
+margin-right: auto;
+	text-align:center;
+font-family: "martel-sans", sans-serif;
+  border-bottom:4px solid #A0896E;
+
+	padding-bottom:15px;
+	width:300px;
+	
+	
+}
+
+
+
+.realmenu{
+position: relative;
+	padding-left: 20px;
+	counter-reset: item;
+font-size:16px;
+background-color:#C1C8B6;
+	background-position: center;
+padding: 2em 3.3em 12em 5em;
+margin: 0 auto;
+width:75%;
+	line-height:23px;
+	justify-content: center;
+	
+	font-family: "martel-sans", sans-serif;
+	
+	
+	
+}
+	
+
+
+h3{
+	
+text-align: center;	
+font-size:24px;	
+	font-family: "sanserata", sans-serif;
+}
+
+
+.prices{
+	
+font-size:20px;	
+	
+	font-weight: bold;
+margin-right:80px;
+  white-space: nowrap;
+
+	
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;
+
+}
+
+.menuitems{
+font-weight:bold;	
+font-size:17px;	
+	
+}
+
+.pastatalk{	
+text-align: center;	
+	color:#A0896E;
+	font-size:15px;
+	margin-top:5px;
+	
+	
+	
+	
+}
+
+.closing{
+	 display: inline-block;
+line-height:30px;	
+text-align: center;	
+	color:#81715F;
+	margin-top:2em;
+	margin-left: auto;
+margin-right: auto;
+	border-bottom:4px solid #A0896E;
+
+	padding-bottom:80px;
+	width:100%;
+	position: relative;
+	
+}
+
+
+
+
+footer{
+background-color:#C1C8B6;
+	z-index: 100;
+	bottom: 0;
+	padding:40px 20px;
+	margin-top:130px;
+	overflow:hidden;
+	
+	
+	
+	
+}
+
+footer p {
+margin-top:35px;	
+margin-left:150px;
+	line-height:25px;
+	
+}
+
+footer .contact{
+	
+float:right;
+	text-align:right;
+	margin-top:-243px;
+	margin-right:230px;
+	line-height:26px;
+	
+}
+
+
+footer img{
+	
+vertical-align: middle;
+width:30px;
+	height:auto;
+	margin-right:5px;
+	
+	
+	
+}
+
+#copyright{
+
+	clear:both;
+	margin:0 auto;
+	text-align:center;
+/*align-items: center;
+	justify-content: center;*/
+	
+	
+}
+
+
