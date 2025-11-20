@@ -93,10 +93,9 @@ body {
 .subhead p{
 	
 font-size:15px;	
-text-align:center;
-margin-left: 40px;
-	margin-right: 60px;
-	line-height:28px;
+margin-left: 5%;
+	margin-right: 5%;
+	line-height:34px;
 	margin-top:80px;
 	
 	
@@ -258,8 +257,8 @@ font-size:15px;
 text-align:center;
 	line-height:28px;	
 	margin-top:90px;
-	margin-left: 30px;
-	margin-right: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
 	
 	
 }
@@ -317,6 +316,17 @@ width:30px;
 	height:auto;
 	margin-right:5px;
 	
+	
+	
+}
+
+
+
+.copyright{
+
+	clear:left;
+align-items: center;
+	justify-content: center;
 	
 	
 }
