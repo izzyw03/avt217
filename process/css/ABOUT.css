@@ -95,9 +95,9 @@ body {
 font-size:15px;	
 margin-left: 5%;
 	margin-right: 5%;
-	line-height:34px;
+	line-height:32px;
 	margin-top:80px;
-	
+	text-indent: 3em;
 	
 }
 
@@ -112,7 +112,7 @@ background-color:#6A797F;
 	
 }
 
-.home hover{
+.home:hover{
 text-decoration: underline;	
 	
 	
@@ -130,7 +130,7 @@ text-decoration: underline;
 	
 }
 
-.about hover{
+.about:hover{
 text-decoration: underline;	
 	
 	
@@ -151,7 +151,7 @@ font-size:24px;
 	
 }
 
-.menu hover{
+.menu:hover{
 text-decoration: underline;		
 	
 	
@@ -169,7 +169,7 @@ font-size:24px;
 	
 }
 
-.events hover{
+.events:hover{
 	
 text-decoration: underline;	
 	
@@ -322,11 +322,11 @@ width:30px;
 
 
 
-.copyright{
+#copyright{
 
-	clear:left;
-align-items: center;
-	justify-content: center;
+	clear:both;
+	margin:0 auto;
+	text-align:center;
 	
 	
 }
